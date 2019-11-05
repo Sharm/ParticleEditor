@@ -20,7 +20,7 @@ Scene {
   property alias itemEditor: itemEditor.itemEditor
   property alias loadMessage: loadMessage
   property alias innerSpace: scene.innerSpaceWidth
-  property alias aboutPanel: aboutPanel
+  //property alias aboutPanel: aboutPanel
 
   property int innerSpaceWidth: mainMenu.menuEditor.width-4*5
 
@@ -106,20 +106,20 @@ Scene {
     }
   }
 
-  AboutPanel {
-    id: aboutPanel
-    x: gameWindowAnchorItem.x
-    y: gameWindowAnchorItem.y
-  }
+//  AboutPanel {
+//    id: aboutPanel
+//    x: gameWindowAnchorItem.x
+//    y: gameWindowAnchorItem.y
+//  }
 
-  onWidthChanged: {
-    mainMenu.slide()
-    itemEditor.slide()
-  }
-  onHeightChanged: {
-    mainMenu.slide()
-    itemEditor.slide()
-  }
+//  onWidthChanged: {
+//    mainMenu.slide()
+//    itemEditor.slide()
+//  }
+//  onHeightChanged: {
+//    mainMenu.slide()
+//    itemEditor.slide()
+//  }
 
   // Left main menu
   MainMenu {

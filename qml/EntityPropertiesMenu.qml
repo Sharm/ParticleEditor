@@ -81,7 +81,7 @@ Item {
 
   function slide(pos) {
     // close the about panel
-    aboutPanel.closePanel()
+    //aboutPanel.closePanel()
     if(itemEditorWrapper.sliderOut) {
       // move out only if editor is out more than a half or completely hidden
       if(itemEditorWrapper.x < __outslidedX-itemEditor.width/2 || itemEditorWrapper.x >= __outslidedX) {
