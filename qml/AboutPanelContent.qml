@@ -77,7 +77,7 @@ Item {
         sourceClick: "../assets/img/title_click.png"
         onClicked: {
           // Log calls to felgo.com
-          flurry.logEvent("felgo.com - about felgo")
+          //flurry.logEvent("felgo.com - about felgo")
           nativeUtils.openUrl("https://www.felgo.com")
         }
         Text {
@@ -102,7 +102,7 @@ Item {
         sourceClick: "../assets/img/qt_click.png"
         onClicked: {
           // Log calls to qt benefits page
-          flurry.logEvent("qt-benefits")
+          //flurry.logEvent("qt-benefits")
           nativeUtils.openUrl("https://felgo.com/benefits/#qtdeveloper")
         }
       }
@@ -114,7 +114,7 @@ Item {
         sourceClick: "../assets/img/cocos_click.png"
         onClicked: {
           // Log calls to cocos benefits page
-          flurry.logEvent("cocos-benefits")
+          //flurry.logEvent("cocos-benefits")
           nativeUtils.openUrl("https://felgo.com/benefits/#cocosdeveloper")
         }
       }
@@ -127,7 +127,7 @@ Item {
         sourceClick: "../assets/img/link_click.png"
         onClicked: {
           // Log calls to Felgo.net
-          flurry.logEvent("felgo.com")
+          //flurry.logEvent("felgo.com")
           nativeUtils.openUrl("https://www.felgo.com")
         }
         Text {
@@ -154,7 +154,7 @@ Item {
         sourceClick: "../assets/img/title_click.png"
         onClicked: {
           // Log calls to felgo.com
-          flurry.logEvent("felgo.com - felgo games features")
+          //flurry.logEvent("felgo.com - felgo games features")
           nativeUtils.openUrl("https://www.felgo.com")
         }
         Text {
@@ -174,7 +174,7 @@ Item {
           sourceClick: "../assets/img/interactive_item_click.png"
           onClicked: {
             // Log calls to Felgo.net
-            flurry.logEvent("felgo.com - felgo features major platforms")
+            //flurry.logEvent("felgo.com - felgo features major platforms")
             nativeUtils.openUrl("https://felgo.com/features/")
           }
           Text {
@@ -192,7 +192,7 @@ Item {
           sourceClick: "../assets/img/interactive_item_click.png"
           onClicked: {
             // Log calls to Felgo.net
-            flurry.logEvent("felgo.com - felgo features single codebase")
+            //flurry.logEvent("felgo.com - felgo features single codebase")
             nativeUtils.openUrl("https://felgo.com/features/")
           }
           Text {
@@ -210,7 +210,7 @@ Item {
           sourceClick: "../assets/img/interactive_item_click.png"
           onClicked: {
             // Log calls to Felgo.net
-            flurry.logEvent("felgo.com - felgo features levels")
+            //flurry.logEvent("felgo.com - felgo features levels")
             nativeUtils.openUrl("https://felgo.com/2013/05/felgo-level-editor/")
           }
           Text {
@@ -228,7 +228,7 @@ Item {
           sourceClick: "../assets/img/interactive_item_click.png"
           onClicked: {
             // Log calls to Felgo.net
-            flurry.logEvent("felgo.com - felgo features introduction")
+            //flurry.logEvent("felgo.com - felgo features introduction")
             nativeUtils.openUrl("https://felgo.com/doc/index.html#qml-introduction")
           }
           Text {
@@ -260,8 +260,8 @@ Item {
         sourceClick: "../assets/img/title_click.png"
         onClicked: {
           // Log calls to Felgo.net
-          flurry.logEvent("felgo.com")
-          flurry.logEvent("felgo.com - particle editor features")
+          //flurry.logEvent("felgo.com")
+          //flurry.logEvent("felgo.com - particle editor features")
         }
         Text {
           anchors.centerIn: parent
@@ -345,7 +345,7 @@ Item {
         sourceClick: "../assets/img/title_click.png"
         onClicked: {
           // Log calls to felgo games
-          flurry.logEvent("Felgo Games")
+          //flurry.logEvent("Felgo Games")
           nativeUtils.openUrl("https://www.felgo.com/showcases")
         }
         Text {
@@ -367,7 +367,7 @@ Item {
           sourceClick: "../assets/img/squaby_click.png"
           onClicked: {
             // Log calls to Felgo games
-            flurry.logEvent("Felgo Games Squaby")
+            //flurry.logEvent("Felgo Games Squaby")
             nativeUtils.openUrl("http://games.felgo.com/squaby/")
           }
         }
@@ -377,7 +377,7 @@ Item {
           sourceClick: "../assets/img/cob_click.png"
           onClicked: {
             // Log calls to Felgo games
-            flurry.logEvent("Felgo Games Chickenoutbreak")
+            //flurry.logEvent("Felgo Games Chickenoutbreak")
             nativeUtils.openUrl("http://games.felgo.com/chickenoutbreak/")
           }
         }
@@ -387,7 +387,7 @@ Item {
           sourceClick: "../assets/img/link_click.png"
           onClicked: {
             // Log calls to felgo games
-            flurry.logEvent("Felgo Games")
+            //flurry.logEvent("Felgo Games")
             nativeUtils.openUrl("https://www.felgo.com/showcases")
           }
           Text {

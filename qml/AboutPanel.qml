@@ -13,7 +13,7 @@ Item {
       return
 
     // Log open about panel
-    flurry.logEvent("OpenAbout")
+    //flurry.logEvent("OpenAbout")
 
     aboutPane.transform()
     clipping.transform()

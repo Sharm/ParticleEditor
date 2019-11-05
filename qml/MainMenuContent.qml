@@ -49,7 +49,7 @@ Column {
     text: "Respawn Particles"
     onClicked: {
       // Log the respawn function
-      flurry.logEvent("Respawn")
+      //flurry.logEvent("Respawn")
       var entities = entityManager.getEntityArrayByType("particleEntity")
       for(var i=0; i<entities.length; ++i) {
         entities[i].respawnParticle()
@@ -62,7 +62,7 @@ Column {
     text: "Remove All"
     onClicked: {
       // Log the remove all function
-      flurry.logEvent("RemoveAll")
+      //flurry.logEvent("RemoveAll")
       var entities = entityManager.getEntityArrayByType("particleEntity")
       for(var i=0; i<entities.length; ++i) {
         entityManager.removeEntityById(entities[i].entityId)
@@ -75,7 +75,7 @@ Column {
     text: "Remove First"
     onClicked: {
       // Log the remove first function
-      flurry.logEvent("RemoveFirst")
+      //flurry.logEvent("RemoveFirst")
       var entities = entityManager.getEntityArrayByType("particleEntity")
       if(entities.length > 0) {
         entityManager.removeEntityById(entities[0].entityId)
@@ -88,7 +88,7 @@ Column {
     text: "Remove Last"
     onClicked: {
       // Log the remove first function
-      flurry.logEvent("RemoveLast")
+      //flurry.logEvent("RemoveLast")
       var entities = entityManager.getEntityArrayByType("particleEntity")
       if(entities.length > 0) {
         entityManager.removeEntityById(entities[entities.length-1].entityId)
@@ -102,7 +102,7 @@ Column {
     text: "Save to .plist"
     onClicked: {
       // Log the save to .plist function
-      flurry.logEvent("SavePlist","name",scene.itemEditor.currentEditableType)
+      //flurry.logEvent("SavePlist","name",scene.itemEditor.currentEditableType)
       var entities = entityManager.getEntityArrayByType("particleEntity")
       for(var i=0; i<entities.length; ++i) {
         if(scene.itemEditor.currentEditableType+".json" === entities[i].particleType) {
@@ -140,7 +140,7 @@ Column {
       if(accepted) {
         if(column.dialogCaller === filename) {
           // Log the name of the new particle
-          flurry.logEvent("Save","Particle",filename)
+          //flurry.logEvent("Save","Particle",filename)
 
           scene.itemEditor.saveItem(getInternalStorageLocation(),scene.itemEditor.currentEditableType,enteredText)
           // save particle will be loaded from data storage
@@ -159,7 +159,7 @@ Column {
           mainMenu.mainMenuContentParticles.fillListWithFiles()
         } else if(column.dialogCaller === mail) {
           // Log the save to .plist function
-          flurry.logEvent("SendJSON","name",scene.itemEditor.currentEditableType)
+          //flurry.logEvent("SendJSON","name",scene.itemEditor.currentEditableType)
 
           var entities = entityManager.getEntityArrayByType("particleEntity")
           for(var i=0; i<entities.length; ++i) {
@@ -170,7 +170,7 @@ Column {
           }
         } else if(column.dialogCaller === mailPList) {
           // Log the save to .plist function
-          flurry.logEvent("SendPList","name",scene.itemEditor.currentEditableType)
+          //flurry.logEvent("SendPList","name",scene.itemEditor.currentEditableType)
 
           var entities = entityManager.getEntityArrayByType("particleEntity")
           for(var i=0; i<entities.length; ++i) {
@@ -186,7 +186,7 @@ Column {
 
   function createParticle() {
     // Log which particle was added how often
-    flurry.logEvent("Add",scene.itemEditor.currentEditableType,column.cnt)
+    //flurry.logEvent("Add",scene.itemEditor.currentEditableType,column.cnt)
 
     for(var i = 0; i < column.cnt; ++i) {
       var newEntityProperties = {

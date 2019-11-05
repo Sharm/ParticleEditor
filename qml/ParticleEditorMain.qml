@@ -40,10 +40,10 @@ GameWindow {
   }
 
   // Flurry is only available on iOS and Android
-  Flurry {
-    id: flurry
-    apiKey: "WSM68XXM8PBJWBXZYBYM"
-  }
+//  Flurry {
+//    id: flurry
+//    apiKey: "WSM68XXM8PBJWBXZYBYM"
+//  }
 
   Component.onCompleted: {
     var isFirstStartApplication = settings.getValue("firstStart")
@@ -51,7 +51,7 @@ GameWindow {
       // now the application was started at least once, so set the flag to true
       settings.setValue("firstStart", true)
       //flurry.logTimedEvent("Start")
-      flurry.logEvent("FirstStart");
+      //flurry.logEvent("FirstStart");
     }
   }
 
