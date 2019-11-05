@@ -1,0 +1,31 @@
+/build*
+
+# Visual Studio files
+/.vs
+*.user*
+*.ncb
+*.sbr
+*.suo
+*.ilk
+*.bsc
+*.pdb
+*.aps
+*.pch
+*.sdf
+*.opensdf
+*.sln.docstates
+*.VC.*
+
+# Visual Studio temp files
+/Debug
+/Release
+x64
+Win32
+GeneratedFiles
+
+# Visual Studio solutions
+*.sln
+*.filters
+*.vcxproj
+*.vcxproj.filters
+*.rc
