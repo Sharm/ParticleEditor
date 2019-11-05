@@ -8,6 +8,8 @@ GameWindow {
   screenWidth: 480*2//*1.5 // for testing on desktop with the highest res, use *1.5 so the -hd2 textures are used
   screenHeight: 320*2//*1.5
 
+  scaleMode: "none"
+
   // You get free licenseKeys from https://felgo.com/licenseKey
   // With a licenseKey you can:
   //  * Publish your games & apps for the app stores

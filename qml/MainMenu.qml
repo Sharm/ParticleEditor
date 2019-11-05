@@ -6,7 +6,7 @@ Item {
   id: menuEditorWrapper
   property alias menuEditor: menuEditor
 
-  width: scene.gameWindowAnchorItem.width/2.5
+  width: 200//scene.gameWindowAnchorItem.width/2.5
   height : scene.gameWindowAnchorItem.height
 
   property variant mainMenuContentParticles

@@ -6,7 +6,7 @@ Item {
   property alias itemEditor: itemEditor
   property alias state: itemEditor.state
 
-  width: scene.gameWindowAnchorItem.width/2.5
+  width: 200//scene.gameWindowAnchorItem.width/2.5
   height : scene.gameWindowAnchorItem.height
 
 
