@@ -190,8 +190,8 @@ Column {
 
     for(var i = 0; i < column.cnt; ++i) {
       var newEntityProperties = {
-        x: Math.random()*scene.usageAreaWidth,
-        y: Math.random()*scene.usageAreaHeight,
+        x: scene.width / 2, //Math.random()*scene.usageAreaWidth,
+        y: scene.height / 2, //Math.random()*scene.usageAreaHeight,
         particleType: scene.itemEditor.currentEditableType+".json",
         dataStorageLocation: scene.itemEditor.dataStorageLocation,
         entityBaseVisible: scene.entityBaseVisible
