@@ -5,10 +5,10 @@ GameWindow {
   id: window
   // depending on which window size is defined as start resolution here, the corresponding image sizes get loaded here! so for testing hd2 images, at least use factor 3.5
   // the window size can be changed at runtime by pressing the keys 1-6 (see GameWindow.qml)
-  screenWidth: 480*2//*1.5 // for testing on desktop with the highest res, use *1.5 so the -hd2 textures are used
-  screenHeight: 320*2//*1.5
+  screenWidth: 480//*2//*1.5 // for testing on desktop with the highest res, use *1.5 so the -hd2 textures are used
+  screenHeight: 320//*2//*1.5
 
-  scaleMode: "none"
+  //scaleMode: "none"
 
   // You get free licenseKeys from https://felgo.com/licenseKey
   // With a licenseKey you can:
